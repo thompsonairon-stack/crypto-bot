@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "EtherOS",
+    "slug": "etheros",
+    "scheme": "etheros",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "plugins": ["expo-router"]
+  }
+}

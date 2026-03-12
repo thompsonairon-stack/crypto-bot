@@ -1,0 +1,19 @@
+{
+  "name": "@etheros/runtime",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "test": "echo 'No tests yet for @etheros/runtime'"
+  },
+  "dependencies": {
+    "@etheros/adapters": "workspace:*",
+    "@etheros/core": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.4"
+  }
+}
