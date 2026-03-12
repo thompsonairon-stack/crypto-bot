@@ -1,0 +1,22 @@
+{
+  "name": "@etheros/api",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "test": "echo 'No tests yet for @etheros/api'"
+  },
+  "dependencies": {
+    "@etheros/core": "workspace:*",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.4"
+  }
+}

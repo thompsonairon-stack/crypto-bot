@@ -1,0 +1,12 @@
+node_modules
+.pnpm-store
+.next
+dist
+build
+.expo
+coverage
+.env*
+.DS_Store
+
+__pycache__
+*.pyc

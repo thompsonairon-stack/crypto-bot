@@ -1,0 +1,20 @@
+{
+  "name": "etheros",
+  "private": true,
+  "version": "0.1.0",
+  "description": "EtherOS monorepo scaffold with runtime, API, web, mobile, and adapters",
+  "packageManager": "pnpm@9.0.0",
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "pnpm --filter @etheros/web dev",
+    "dev:mobile": "pnpm --filter @etheros/mobile start",
+    "dev:api": "pnpm --filter @etheros/api dev",
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test"
+  }
+}
